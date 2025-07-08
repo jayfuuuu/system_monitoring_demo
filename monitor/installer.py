@@ -5,8 +5,8 @@ import argparse
 import config
 from utils import multiprocessing
 
-from monitor.promtail.console_promtail import ClientPromtail
-from monitor.telegraf.console_telegraf import ClientTelegraf
+from monitor.promtail.client_promtail import ClientPromtail
+from monitor.telegraf.client_telegraf import ClientTelegraf
 
 if __name__ == '__main__':
 
